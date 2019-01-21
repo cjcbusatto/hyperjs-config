@@ -38,6 +38,11 @@ curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/in
 
 Edit `~/.bashrc` including the command on the first line: `exec zsh`
 
+### Install Powerline fonts
+
+- Clone the Powerline repository `git clone https://github.com/powerline/fonts.git`
+- Run as administrator the script `install.ps1` to install the Fonts
+
 ### Replace Hyper.js original configuration
 
 Replace the `.hyper.js` file, created during the installation of the Hyper.js, to the [.hyper.js](.hyper.js) from the repository.
@@ -45,7 +50,7 @@ Replace the `.hyper.js` file, created during the installation of the Hyper.js, t
 ## Source
 
 - [Evdokimov, M - How to Install Zsh and Oh My Zsh on Windows 10](https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html)
-
+- [Meng, S - How to install Powerline fonts in Windows](https://medium.com/@slmeng/how-to-install-powerline-fonts-in-windows-b2eedecace58)
 ## LICENSE
 
 MIT License
